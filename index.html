@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EletroMundo</title>
+  <link rel="stylesheet" href="css/styleindex.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <i>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cpu" viewBox="0 0 16 16">
+            <path d="M5 0a.5.5 0 0 1 .5.5V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2A2.5 2.5 0 0 1 14 4.5h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14a2.5 2.5 0 0 1-2.5 2.5v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14A2.5 2.5 0 0 1 2 11.5H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2A2.5 2.5 0 0 1 4.5 2V.5A.5.5 0 0 1 5 0m-.5 3A1.5 1.5 0 0 0 3 4.5v7A1.5 1.5 0 0 0 4.5 13h7a1.5 1.5 0 0 0 1.5-1.5v-7A1.5 1.5 0 0 0 11.5 3zM5 6.5A1.5 1.5 0 0 1 6.5 5h3A1.5 1.5 0 0 1 11 6.5v3A1.5 1.5 0 0 1 9.5 11h-3A1.5 1.5 0 0 1 5 9.5zM6.5 6a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5z"/>
+          </svg>
+        </i>
+        EletroMundo
+      </a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="filtros.html"><strong>Ofertas</strong></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="forms.html"><strong>Cadastre-se</strong></a>
+          </li>
+        </ul>
+        <a href="perfil.html" id="perfil">
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+            <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664z"/>
+          </svg>
+        </a>
+        <a href="carrinho.html" id="carrinho">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-cart4" viewBox="0 0 16 16">
+              <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l.5 2H5V5zM6 5v2h2V5zm3 0v2h2V5zm3 0v2h1.36l.5-2zm1.11 3H12v2h.61zM11 8H9v2h2zM8 8H6v2h2zM5 8H3.89l.5 2H5zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
+            </svg>
+        </a>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div class="container-carrossel">
+    <div class="slider">
+      <div class="slides">
+        <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+        <input type="radio" name="radio-btn" id="radio4">
+
+        <div class="slide first">
+          <img src="img/foto10.png" alt="imagem 1">
+        </div>
+        <div class="slide">
+          <img src="img/foto11.png" alt="imagem 2">
+        </div>
+        <div class="slide">
+          <img src="img/foto12.png" alt="imagem 3">
+        </div>
+        <div class="slide">
+          <img src="img/foto15.png" alt="imagem 4">
+        </div>
+
+        <div class="navigation-auto">
+          <div class="auto-btn1"></div>
+          <div class="auto-btn2"></div>
+          <div class="auto-btn3"></div>
+          <div class="auto-btn4"></div>
+        </div>
+      </div>
+
+      <div class="manual-navigation">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+        <label for="radio4" class="manual-btn"></label>
+      </div>
+    </div>
+  </div>
+  <div id="texto">
+    <p>Ofertas</p>
+  </div>
+  <div class="container-cards">
+    <div class="card">
+        <div id="img">
+            <img src="img/foto2.png" alt="card1">
+            <h5>Smart TV 50” 4K LED TCL 50P635 VA Wi-Fi - Bluetooth HDR Google Assistente 3 HDMI 1 USB</h5>
+            <h3><strong>R$ 2.089,05 no Pix</strong></h3>
+            <p>ou R$ 2.199,00 em 10x de R$ 219,90 sem juros</p>
+            <h6>05% de desconto</h6>
+            <a href="detalhecard1.html" id="comprar">Comprar</a>
+        </div>
+    </div>
+    <div class="card">
+      <div id="img">
+        <img src="img/foto5.png" alt="card2">
+            <h5>Smartphone Motorola Razr 40 256GB Vanilla 5G Snapdragon 8GB RAM 6,9" Câm. Dupla + Selfie 64MP</h5>
+            <h3><strong>R$ 3.599,10 no Pix</strong></h3>
+            <p>ou R$ 3.999,00 em 10x de R$ 399,90 sem juros</p>
+            <h6>10% de desconto</h6>
+            <a href="#" id="comprar">Comprar</a>
+      </div>
+    </div>
+    <div class="card">
+        <div id="img">
+          <img src="img/foto7.png" alt="card3">
+          <h5>Smartphone Motorola Edge 40 Neo 256GB Soothing Sea 5G 8GB RAM 6,55" Câm. Dupla + Selfie 32MP Dual Chip</h5>
+          <h3><strong>R$ 2.199,00 no Pix</strong></h3>
+          <p>ou R$ 2.443,33 em 10x de R$ 244,33 sem juros</p>
+          <h6>10% de desconto</h6>
+          <a href="#" id="comprar">Comprar</a>
+        </div>
+    </div>
+    <div class="card">
+      <div id="img">
+          <img src="img/foto19.png" alt="card4">
+          <h5>Notebook Acer Aspire A315-24p-r06b 8gb 512gb W11 15.6 Prata Cor Prateado</h5>
+          <h3><strong>R$ 2.549</strong></h3>
+          <p>ou em 10x de R$ 254,90 sem juros</p>
+          <h6>05% de desconto</h6>
+          <a href="#" id="comprar">Comprar</a>
+      </div>
+    </div>
+  </div>
+  <div id="texto">
+    <p>Mais visualizados</p>
+  </div>
+  <div class="container-cards">
+    <div class="card">
+      <div id="img">
+          <img src="img/foto16.png" alt="card4">
+          <h5>Echo Dot 5ª geração com Relógio | Smart speaker com Alexa | Display de LED ainda melhor | Cor Azul Claro</h5>
+          <h3><strong>R$ 476,10</strong></h3>
+          <p>ou R$ 529,00 em até 12x de R$ 44,12 sem juros</p>
+          <h6>10% de desconto</h6>
+          <a href="#" id="comprar">Comprar</a>
+      </div>
+    </div>
+    <div class="card">
+      <div id="img">
+          <img src="img/foto18.png" alt="card4">
+          <h5>Fone de Ouvido JBL Tune 520BT Azul Bluetooth Pure Bass Wireless Sem Fio Com Microfone JBLT520BTBLU</h5>
+          <h3><strong>R$ R$ 287,91 no Pix</strong></h3>
+          <p>ou R$ 319,90 em 7x de R$ 45,70 sem juros</p>
+          <h6>10% de desconto</h6>
+          <a href="#" id="comprar">Comprar</a>
+      </div>
+    </div>
+    <div class="card">
+      <div id="img">
+          <img src="img/foto8.png" alt="card4">
+          <h5>Apple iPhone 13 256GB Meia-noite Tela 6,1” 12MP</h5>
+          <h3><strong>R$ 5.129,10 no Pix</strong></h3>
+          <p>ou R$ 5.699,00 em 10x de R$ 569,90 sem juros</p>
+          <h6>10% de desconto</h6>
+          <a href="#" id="comprar">Comprar</a>
+      </div>
+    </div>
+    <div class="card">
+      <div id="img">
+          <img src="img/foto20.png" alt="card4">
+          <h5>Notebook Dell Inspiron 15 3000 Intel Core i5 8GB - 256GB SSD 15,6” Windows 11 i15-i1100-A35PF</h5>
+          <h3><strong>R$ 3.059,10 no Pix</strong></h3>
+          <p>ou R$ 3.399,00 em 10x de R$ 339,90 sem juros</p>
+          <h6>10% de desconto</h6>
+          <a href="#" id="comprar">Comprar</a>
+      </div>
+    </div>
+  </div>
+  <div class="container-footer">
+    <footer class="main-footer">
+      <div class="nome">
+        <a class="logo" href="#">
+          <img src="img/cpu.svg" alt="logo">
+        </a>
+        <h3 class="titulo">EletroMundo</h3>
+      </div>
+      <div class="assinatura">
+        <h5 class="titulo2">Seja o primeiro a saber de nossas ofertas, lançamentos de novos produtos e eventos</h5>
+        <form action="#">
+          <label for="assinatura"></label>
+          <input type="email" name="assinatura" id="assinatura" placeholder="Digite seu e-mail...">
+        </form>
+      </div>
+      <table class="tb-conteudo">
+        <thead>
+          <tr>
+            <th>Compre</th>
+            <th>Redes sociais</th>
+            <th>Ajuda</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Smartphone</td>
+            <td>Instagram: @eletromundo_ofc</td>
+            <td>Sobre nós</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Notebook</td>
+            <td>X (Twitter): @eletromundo_ofc</td>
+            <td>Contatos</td>
+          </tr>
+          <tr>
+            <td>Smart TV</td>
+            <td>E-mail: eletromundo@gmail.com</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Echo Dot</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Headphone</td>
+          </tr>
+        </tbody>
+      </table>
+    </footer>
+  </div>
+</body>
+</html>
